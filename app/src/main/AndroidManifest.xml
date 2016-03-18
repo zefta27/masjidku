@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coba.zefta.Masjidku">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="icaksama.com.maps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBu4DGah-hg_q7Y_NEkvyciIiV1wQ0JqlU" />
+        <activity android:name="com.coba.zefta.Masjidku.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.coba.zefta.Masjidku.MainActivity">
+            <intent-filter>
+                <action android:name="com.coba.zefta.belajarrecycle2.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.coba.zefta.Masjidku.detail">
+            <intent-filter>
+                <action android:name="com.coba.zefta.belajarrecycle2.detail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.coba.zefta.Masjidku.Main2Activity">
+            <intent-filter>
+                <action android:name="com.coba.zefta.belajarrecycle2.Main2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.coba.zefta.Masjidku.MapsActivity">
+            <intent-filter>
+                <action android:name="com.coba.zefta.belajarrecycle2.MapsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.coba.zefta.Masjidku.SelectPeta">
+            <intent-filter>
+                <action android:name="com.coba.zefta.belajarrecycle2.SelectPeta" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.coba.zefta.Masjidku.detailpeta">
+            <intent-filter>
+                <action android:name="com.coba.zefta.belajarrecycle2.detailpeta" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

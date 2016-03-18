@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99cc33">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/masjidku"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Masjidku"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/splashProgress"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

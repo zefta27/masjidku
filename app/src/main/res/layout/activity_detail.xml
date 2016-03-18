@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/my_awesome_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme ="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <TextView
+        android:layout_below="@id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvDetail"/>
+    <View
+        android:id="@+id/vw_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/tvDetail"/>
+
+    <TextView
+        android:layout_below="@+id/vw_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvAlamat"/>
+    <View
+        android:id="@+id/vw_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/tvAlamat"/>
+
+    <TextView
+        android:layout_below="@+id/vw_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvLatitude"/>
+    <View
+        android:id="@+id/vw_divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/tvLatitude"/>
+
+    <TextView
+        android:layout_below="@+id/vw_divider3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvLongitude"/>
+    <View
+        android:id="@+id/vw_divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/tvLongitude"/>
+
+    <TextView
+        android:layout_below="@+id/vw_divider4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvDistance"/>
+    <View
+        android:id="@+id/vw_divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/tvDistance"/>
+
+    <TextView
+        android:layout_below="@+id/vw_divider5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tvTags"/>
+    <View
+        android:id="@+id/vw_divider6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/tvTags"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGambar_Url"
+        android:layout_below="@+id/vw_divider6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="103dp"
+        />
+
+    <Button
+        android:layout_below="@+id/tvGambar_Url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peta"
+        android:onClick="btnPeta"
+        android:id="@+id/id_btnPeta"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+         />
+
+
+</RelativeLayout>

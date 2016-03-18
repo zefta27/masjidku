@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/biruTua</item>
+        <item name="colorPrimaryDark">@color/biruMuda</item>
+        <item name="colorAccent">@color/teksUtama</item>
+    </style>
+    <color name="biruTua">#99cc33</color>
+    <color name="biruMuda">#2196f2</color>
+    <color name="teksUtama">#000000</color>
+
+</resources>
